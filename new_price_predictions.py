@@ -84,8 +84,8 @@ end_time = None
 # first_prediction = 0
 time_to_dfC = None
 
-api_key = '8fAdR3S4rV680f0RuxCFuSY4xHNHcVSVZMfQAQuw2ickLkYRPUo2gnqdLG5wrvUt'
-api_secret = 'OtGixiSCRxQjhGli3BG3QlauGcwy0GATYyjTNwQyvjyrqDujgkAngKyogtt4NTkk'
+api_key = 
+api_secret = 
 predicted_data = pd.DataFrame(
     columns=['Open Time', 'Open', 'High', 'Low', 'Close', 'Volume', 'Close Time', 'Quote Asset Volume',
              'Number of Trades', 'Taker Buy Base Asset Volume', 'Taker Buy Quote Asset Volume', 'Ignore'])
@@ -1979,3 +1979,4 @@ plt.show()
 
 
 #get_analysis = start_analysis(Client.KLINE_INTERVAL_1DAY, now_date, 1500, bitcon_symbol,quantity,time_frame[6],3)
+
