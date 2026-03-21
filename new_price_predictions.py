@@ -1367,12 +1367,7 @@ def start_analysis(interval, end_time, duration, symbol,quan,time_frame_test,inc
         if stock != "NVDA":
             import MetaTrader5 as mt5
              # --- Configuration ---
-            MT5_LOGIN = 255574682  # Replace with your MT5 Login ID
-            MT5_PASSWORD = "I!@#$m1989e" # Replace with your MT5 Password
-            MT5_SERVER = "Exness-MT5Real35" # Replace with your Exness server name (e.g., "Exness-MT5Trial")
-            MT5_LOGIN = 259687520  # Replace with your MT5 Login ID
-            MT5_PASSWORD = "Welcome@2026" # Replace with your MT5 Password
-            MT5_SERVER = "Exness-MT5Trial15" # Replace with your Exness server name (e.g., "Exness-MT5Trial")
+            
             SYMBOL = stock
             if interval == "1mo":
                 print("fuck yeah")
@@ -1390,7 +1385,7 @@ def start_analysis(interval, end_time, duration, symbol,quan,time_frame_test,inc
             else:
                 COUNT = 1500 # Number of bars to download
             
-            if not mt5.initialize(login=MT5_LOGIN, server=MT5_SERVER, password=MT5_PASSWORD):
+            if not mt5.initialize():
                 print(f"Initialization failed, error code: {mt5.last_error()}")
                 quit()
             else:
