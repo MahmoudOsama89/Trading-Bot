@@ -857,13 +857,13 @@ def start_analysis(interval, end_time, duration, symbol,quan,time_frame_test,inc
     
              
     def intinate_api():
-        #api_key = 'fv1cPlj6Z5GRaZAbTzbhwbVDrzEColzDvzwDrbQjznlJPE45hoTH1LyCcRTwV0Ru'
-        #api_secret = 'MoHhx82dmHeMUi7dKJtNS9FSz9qmojgRi4IndV75oRDam30k4MRHD8JZ3gqLxFJC'
+        #api_key = //
+        #api_secret = //
     
-        api_key = 'zU0LC00ZwM3mtwQw0vg2pbBboMJuGjpyJl5jb4eLp5Z9T2pAqiWQqQHJx314o6y6'
-        api_secret = 'ABsb0vRgDEsuJcjRX0rGHE0StFwsIMtVMFLxPzBIqGWgHbH5MvozQ34WQK68kI4T'
-        #api_key = "wLlcD4cSinyr7qHXDSulLLpxi2M9FcQm9dkjkqVUfJVlBlkwvhNzFQdBKuH1xKQv"
-        #private_key = "MIIEpQIBAAKCAQEAoiFy+J4wDZKvbFLyGbOK8IyA1IKpvxRVsnYzrl8goAF2KyadgvNR8WxqajXQDpyIatlWRVa5TdJPx3eq2L4YVhSXhZVQ+87TPX9xG0qr5imR+hUgEArbrT87+FvopmXS41xfh9+Up5SrpKn+oDFBbje52WA5BIh3insurXmFHS/DQeaoLIRtbHqXLc5OxpGwdKP+yyCtmk/bxpug8m+kM/PmRrft8g+WUIcldITaAcOD2ZpFbU4mugzjxmDHiJOD11NrOsZAciIxUQ2l2OWNn80ASBp2qNGAPry2YROcOwK+sxy4KgsS/cz6wcGLMO9MN8DO6Xlgh7cQCrZn/YoNKQIDAQABAoIBAHl0g1NZ9XeFhmKotHKqfI/9QVlxVMYu7o/VWpvq6V7UGXjz4ZVCwAUSiZltHKKFgvBARg+FiyWQQnGT5OmfZk29+VB57gPlCXwNZ2bhhmrSg2eLwcwixjQ/paZE+8EDkHsALRR1WkA78GVXb8cDfxeZKWF9YtlRffPAmdQcr6qPdqYqbvMEhgjxwGaaAFWLcgc6YIHLbA1xx8o0N2zJF/fe6aTDJH7VqkL8y0pYQdVylUdYUITXZzDtnzpqLPB3efA89fmoxZTysnxPP1pNGsM4OyBYiMpZsdgI89SzzmsqLhlQOa/AGjE1jiEUpNY04CDhVAXofZGd7qbkC1KW64ECgYEA1d3jIJYUoBc29NHckNCEy8cDVihwbrIvcFcTMzu9vBfgZIo9S+2+gWKErdQdqa/gSg1mueYJWGfpSU8O4e4ppuQg/xq+6iRr1SRd/e3k9gqKxi0cFIHFYHxR1xpEQWi5riC8m6Uq8ACC1ZxFaGhsowxnqyd9FX4SUwPbSjlwPHECgYEAwhJQf54iymZvrvniwu7MXhdw3Xd6Lbne6QIqnlvM5cjERDFO7136Jv6An2AErYDHQdwGHjlHFvSYFNZENmbgrQQDjJeBz6zI4RgjPq8HguKujc29O/aHvYhIjURBv0l7pz0dCJr+/DldpnxeO1lWCiR2fJlg4u6YCjtYcAUCGDkCgYEAsICCPVd/SCxAj8ZPOTjOD/t79nRDbigiXJ2QW/0W9o/iAjfQpMReMBvlkix4Gp3rBlKPECcYWVzQvE7B4pYSzAiEbuVc4JIUaICuDa5zAtfqdemuvgHnqlyPkm28HRtX+qxL3Exw5kgVskNZSPS9i8bmG+voIH++kcKiDVzgExECgYEAhwPq0P4ZQiqF5HugkPFFaOhx8wGeFJXNSNnjAIzpPauxL6gGPG1rDRneLgLE/lgrR9xkvT4oAQZlj4mJpzdnc7bpKTR2cR7KGh+K1Z87YImH2suZrU/UG73mi7FC9GuRBUZ1HnmGj77xMlQv0qZSP3ginoiuaPKJAAVNf5FcZbECgYEAz/g7BJ7t021xZ1JRR+z5Jjx6AakIxUlG0TlPSq3CH4y2z2hTzSWcHrV/HmS1yi+KjPN5E00JNunhpZb4O04blwxA71//ILYmqk4lJBhQnzLapIe6ra5UTc2SXLqTiPq8QnfGApj9bKexcJV6beDoJbn/yYvRWPpOa76PlFOaFPQ="
+        api_key = //
+        api_secret = //
+        #api_key = //
+        #private_key = //
 
         try:
             client = Client(api_key, api_secret)
