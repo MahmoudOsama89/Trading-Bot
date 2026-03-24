@@ -71,10 +71,9 @@ Comprehensive evaluation using 10+ statistical metrics:
 ## 📊 Results
 
 **Model Performance (Example - Update with your actual results):**
-- Test Set R²: 0.XX
-- Test Set MAE: $X.XX
-- Classification Accuracy: XX%
-- MAPE: X.X%
+- Test Set R²: .9868
+- Test Set MAE: $111.2776 in bitcoin
+- MAPE: 1.6%
 
 **Key Findings:**
 - Multi-timeframe approach provides robust predictions
@@ -232,7 +231,7 @@ This project demonstrates:
 
 **Mahmoud Osama Anwar**  
 📧 Mahmoud.ossama89@gmail.com  
-🔗 LinkedIn: [Your LinkedIn]  
+🔗 LinkedIn:https://www.linkedin.com/in/mahmoud-usama/
 📍 Cairo, Egypt
 
 Open to remote Data Science opportunities globally.
