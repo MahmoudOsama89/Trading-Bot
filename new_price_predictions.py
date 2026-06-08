@@ -1864,7 +1864,7 @@ def start_analysis(interval, end_time, duration, symbol,quan,time_frame_test,inc
     
     
 
-me = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqw6vs6RRIvls6DqVVPFZfWiVdCZZAuoBmQXJBmZ+d9SzUMgGbtdEUcsZBQGVq6KJlmHf3BGgwQkXSMIET8kpQ7+EoZ6yg1RfGHeD++8Zq8+p+WvPrbJnVyz7OAzO+Gdn+vZXhJs9oIzFQSVa6FWd68A7M+vO0txevZugF0X1tPFkvkrZyTrabAvFDh5kQQC01mFIAYsgyzwMIdfCh2gk6PFd4M7C+Xef3oJ5/+g2zLQ/N+4DE0vVy0CfUO6+wqkcnAaivfbHvlmeWehaR3r/3hyoZGYGM4oVkDbtCvc9sK2jEWLJiR5m7/xP+h0zwPvLuEjvTfdrLYAucEBzLcTE1wIDAQAB"
+me = ""
 bitcon_symbol = 'BTCUSDT'
 
 now_date = datetime(2025, 10, 1, 2, 5, 0, tzinfo=timezone.utc)
