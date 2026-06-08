@@ -1190,8 +1190,8 @@ def start_analysis(interval, end_time, duration, symbol,quan,time_frame_test,inc
     
     def my_new_placing_order_short_and_long(close_at_price,side,position_side):
         try:
-            API_KEY='4xCXW0QVNEXHWvi8bJE0JsSu5kAsk2dlIbYQnN7U1VnksppHCRx3YE3Y92t29Sdw'
-            PRIVATE_KEY_PATH="G:\mahmoud\private_key.pem"
+            API_KEY=''
+            PRIVATE_KEY_PATH=""
             # Load the private key.
             # In this example the key is expected to be stored without encryption,
             # but we recommend using a strong password for improved security.
@@ -1256,8 +1256,8 @@ def start_analysis(interval, end_time, duration, symbol,quan,time_frame_test,inc
     
     def my_new_placing_order(close_at_price,side,position_side):
         try:
-            API_KEY='4xCXW0QVNEXHWvi8bJE0JsSu5kAsk2dlIbYQnN7U1VnksppHCRx3YE3Y92t29Sdw'
-            PRIVATE_KEY_PATH="G:\mahmoud\private_key.pem"
+            API_KEY=''
+            PRIVATE_KEY_PATH=""
             # Load the private key.
             # In this example the key is expected to be stored without encryption,
             # but we recommend using a strong password for improved security.
@@ -1606,12 +1606,12 @@ def start_analysis(interval, end_time, duration, symbol,quan,time_frame_test,inc
         # display data on the MetaTrader 5 package
         print("MetaTrader5 package author: ", mt5.__author__)
         print("MetaTrader5 package version: ", mt5.__version__)
-        """MT5_LOGIN = 255574682  # Replace with your MT5 Login ID
-        MT5_PASSWORD = "I!@#$m1989e" # Replace with your MT5 Password
-        MT5_SERVER = "Exness-MT5Real35" # Replace with your Exness server name (e.g., "Exness-MT5Trial")"""
-        MT5_LOGIN = 259687520  # Replace with your MT5 Login ID
-        MT5_PASSWORD = "Welcome@2026" # Replace with your MT5 Password
-        MT5_SERVER = "Exness-MT5Trial15" # Replace with your Exness server name (e.g., "Exness-MT5Trial")
+        """MT5_LOGIN =   # Replace with your MT5 Login ID
+        MT5_PASSWORD =  # Replace with your MT5 Password
+        MT5_SERVER =  # Replace with your Exness server name (e.g., "Exness-MT5Trial")"""
+        MT5_LOGIN =   # Replace with your MT5 Login ID
+        MT5_PASSWORD =  # Replace with your MT5 Password
+        MT5_SERVER =  # Replace with your Exness server name (e.g., "Exness-MT5Trial")
         # establish connection to the MetaTrader 5 terminal
         if not mt5.initialize(login=MT5_LOGIN, server=MT5_SERVER, password=MT5_PASSWORD):
             print("initialize() failed, error code =",mt5.last_error())
